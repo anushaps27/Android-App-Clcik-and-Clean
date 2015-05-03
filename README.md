@@ -20,7 +20,7 @@ Application is divided into two interfaces:
 Any user (either a department member or a normal user), on the basis of their email-id's will login into their respective interfaces.
 
 ## 5 Common User Interface
-Once a normal user login becomes successful, his/her GPS location is tracked by the application and it does one of the following:
+If the user is not registered in the application, then he/she can register with his email-identification. Once a normal user login becomes successful, his/her GPS location is tracked by the application and it does one of the following:
 
 1. If there are no previous complaints from that location, the user is redirected to a screen to file a new complaint for that location.
 
