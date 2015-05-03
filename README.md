@@ -1,6 +1,7 @@
 # Android-App-Clcik-and-Clean
 
-1 Team Members• Anusha P S (IMT2012007)
+1 Team Members
+• Anusha P S (IMT2012007)
 • Praneeth Kumar Susarla (IMT2012043)
 
 2 Aim
