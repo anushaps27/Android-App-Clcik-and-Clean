@@ -24,13 +24,13 @@ Once a normal user login becomes successful, his/her GPS location is tracked by 
 
 1. If there are no previous complaints from that location, the user is redirected to a screen to file a new complaint for that location.
 
-2. Otherwise it gathers complaints from that gps location already existing in the cloud database maintained by the application then it displays:
+2. Otherwise it gathers complaints from that GPS location already existing in the cloud database maintained by the application then it displays:
 
-  a The current gps location address
+  a. The current GPS location address
 
-  b The current number of complaints along with the average critical level from the same location
+  b. The current number of complaints along with the average critical level from the same location
 
-  c Details of action: Provides the date if the action has been taken on the complaints coming from this location. Otherwise, it displays that the action is not yet taken on the complaints coming from this location.
+  c. Details of action: Provides the date if the action has been taken on the complaints coming from this location. Otherwise, it displays that the action is not yet taken on the complaints coming from this location.
 
 
 The user is then provided with two options:
