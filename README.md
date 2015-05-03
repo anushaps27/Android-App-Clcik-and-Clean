@@ -40,7 +40,7 @@ The user is then provided with two options:
 NOTE: User cannot confirm the complaint unless the action has been taken by the department on similar complaints of this location.
 
 ## 6 Department Interface
-If the member is not registered in the application, then he/she can register with his email-identification to access the department interface. Otherwise, a member of the department logins into the application with his registered email-id ending with ``*@garbage.com”. Once the login becomes successful, the application displays following three sections to the member of the department:
+If the member is not registered in the application, then he/she can register with his email-identification to access the department interface. Otherwise, a member of the department logins into the application with his registered email-id ending with "@garbage.com". Once the login becomes successful, the application displays following three sections to the member of the department:
 
 1. COMPLAINTS: Number of complaints along with the average critical level coming from various places (gps location addresses) waiting for the action to be taken the department. The member of the department can select the various location address complaints with the help of a check box and then use the ok button to update the taken actions on them.
 NOTE: The location address of the set of complaints gets displayed by tapping it.
