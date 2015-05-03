@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Click And Clean</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="motto">Clean garbage with just a photo click! :)</string>
+    <string name="register_name">Username</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Password</string>
+    <string name="register_confirm_password">Confirm password</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="change_password">Change password?</string>
+    <string name="change_password2">Change Password</string>
+    <string name="create_acc">Don\'t have an account?</string>
+    <string name="register_heading">Create Your Account</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_confirm_password">Passwords do not match</string>
+    <string name="error_existing_email">User is already Registered</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_photo_screen">PhotoScreen</string>
+    <string name="popuptext">Registration Successful! Click ok to proceed.</string>
+    <string name="ok">OK</string>
+    <string name="send_email">Send Email</string>
+    <string name="photo_text">Tap below to take the photo</string>
+    <string name="you_are_at">YOU ARE AT</string>
+    <string name="get_location">GET MY LOCATION</string>
+    <string name="start_location_updates">START LOCATION UPDATES</string>
+    <string name="stop_location_updates">STOP LOCATION UPDATES</string>
+    <string name="title_activity_forgot_password_screen">ForgotPasswordScreen</string>
+    <string name="critical_level">Critical level:</string>
+    <string name="critical_value">Value 0-10</string>
+    <string name="confirm">Confirm</string>
+    <string name="thankyou">Thank you for helping!</string>
+    <string name="logout">Logout</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <color name="mycolor">#ff00426c</color>
+    <color name="white">#ffffff</color>
+    <string name="title_activity_thank_you_screen">ThankYouScreen</string>
+    <string name="title_activity_department_screen">DepartmentScreen</string>
+    <string name="title_activity_confirm_photo_screen">ConfirmPhotoScreen</string>
+    <string name="title_activity_list_screen">ListScreen</string>
+    <string name="title_activity_change_password_screen">ChangePasswordScreen</string>
+</resources>

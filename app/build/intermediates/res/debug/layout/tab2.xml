@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images2">
+
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="422dp"
+        android:id="@+id/expandableListView"
+        android:layout_centerHorizontal="true"
+        android:smoothScrollbar="true"
+        android:layout_weight="1.01"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/clean_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:id="@+id/clean_button"
+        android:clickable="true"
+        android:background="@color/hint_foreground_material_light"
+        android:layout_gravity="right"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout><!-- From: file:/home/anusha/AndroidStudioProjects/ClickAndCleanFinal/app/src/main/res/layout/tab2.xml -->

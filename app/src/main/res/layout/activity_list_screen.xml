@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="examples.course.clickandclean.ListScreen"
+    android:weightSum="1"
+    android:background="@drawable/images2">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register a Complaint"
+        android:id="@+id/register_button"
+        android:background="@color/hint_foreground_material_light"
+        android:textColor="@color/white"
+        android:layout_alignLeft="@+id/confirm_button"
+        android:layout_alignStart="@+id/confirm_button"
+        android:layout_below="@+id/expandableListView3"
+        android:layout_alignRight="@+id/confirm_button"
+        android:layout_alignEnd="@+id/confirm_button"
+        android:layout_marginBottom="@dimen/abc_action_bar_default_padding_material"
+        android:layout_marginTop="@dimen/abc_action_bar_default_padding_material" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm and Close the Complaint"
+        android:id="@+id/confirm_button"
+        android:background="@color/hint_foreground_material_light"
+        android:textColor="@color/white"
+        android:layout_below="@+id/register_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/abc_action_bar_default_padding_material" />
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:id="@+id/expandableListView3"
+        android:smoothScrollbar="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/abc_action_bar_default_padding_material" />
+
+</RelativeLayout>

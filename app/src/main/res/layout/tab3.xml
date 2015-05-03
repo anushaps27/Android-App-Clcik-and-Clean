@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/images2">
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="422dp"
+        android:id="@+id/expandableListView2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button"
+        android:smoothScrollbar="true"
+        android:layout_weight="1.01" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/hint_foreground_material_light"
+        android:textColor="@color/white" />
+
+</LinearLayout>
